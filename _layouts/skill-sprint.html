@@ -1,0 +1,100 @@
+---
+layout: default
+# tabs: example_tabs
+show_sidebar: false
+---
+<div class="content">
+    <div class="columns is-centered">
+        <div class="column">
+                <div class="card has-equal-height">
+                        <div class="card-content">
+                            <span class="icon-text has-text-danger">
+                                <span class="icon">
+                                  <i class="fas fa-lg fa-exclamation-triangle"></i>
+                                </span>
+                                <span class="title">Problem</span>
+                            </span>
+                        </div>
+                        <div class="card-content">
+                            {% for item in page.problem.description %}
+                                <span class="icon-text has-text-info">
+                                    <span class="icon">
+                                    <i class="fas fa-sm fa-info-circle"></i>
+                                    </span>
+                                    <span class="subtitle">{{ item.subtitle }}</span>
+                                </span>
+                            <p>{{ item.text }}</p>
+                            {% endfor %}
+                        </div>
+                </div>
+        </div>
+        <div class="column">
+            <div class="card has-equal-height">
+                <div class="card-content">
+                    <p class="title">{{ page.tech.name }} - Tech Profile</p>
+                    <p class="subtitle">{{ page.tech.type }}</p>
+                    {% for item in page.tech.benefits %}
+                    <div class="icon-text">
+                        <span class="icon has-text-success">
+                          <i class="fas fa-check-square"></i>
+                        </span>
+                        <span>{{ item }}</span>
+                    </div>
+                    {% endfor %}
+                    <a target="_blank" rel="noopener noreferrer" href="{{ page.tech.url }}">
+                    <div class="icon-text">
+                        <span class="icon has-text-info">
+                          <i class="fas fa-link"></i>
+                        </span>
+                        <span>{{ page.tech.url }}</span>
+                    </div></a>
+                    </br>
+                    <p>{{ page.tech.description }}</p>
+                </div>
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="{{ page.card-image }}" alt="Placeholder image">
+                    </figure>
+                </div>
+            </div>
+        </div>      
+        <div class="column">
+                <div class="card has-equal-height">
+                        <div class="card-content">
+                            <p class="title">Solution</p>
+                            {% for item in page.solution.description %}
+                            <p>{{ item }}</p>
+                            {% endfor %}
+                        </div>
+                </div>
+        </div>
+    </div>
+
+
+
+    {% for item in page.items %}
+    <section class="section">
+    {% if item.media == "text" %} 
+        <h4 class="title">
+            <span class="icon-text">
+            <span class="icon">
+              <i class="fas {{ item.icon }}"></i>
+            </span>
+            <span>{{ item.title }}</span>
+        </h4>
+
+          <p>
+            {{ item.description }}
+          </p>
+
+    {% elsif item.media == "image" %}
+            <section class="section">
+            <figure class="image is-4by3">
+                <img src="{{ item.image }}">
+            </figure>
+        
+    {% endif %}
+    </section>
+    {% endfor %}
+</div>
+

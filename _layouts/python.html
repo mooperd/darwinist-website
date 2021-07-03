@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="content">
+{% for item in site.data.python-skill-sprint.items %}
+{% if item.media == "text" %}
+      <section class="section">
+      <h2>
+        <span class="icon-text">
+        <span class="icon">
+          <i class="fas {{ item.icon }}"></i>
+        </span>
+        <span>{{ item.title }}</span>
+      </span>
+      </h2>
+      <p class="subtitle">
+        {{ item.description }}
+      </p>
+      </section>
+{% elsif item.media == "image" %}
+        <section class="section">
+        <figure class="image is-4by3">
+            <img src="{{ item.image }}">
+        </figure>
+       </section>
+{% endif %}
+{% endfor %}
+</div>
+
+
+

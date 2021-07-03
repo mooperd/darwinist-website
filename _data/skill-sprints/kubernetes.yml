@@ -1,0 +1,148 @@
+---
+row: 1
+column: 2
+style: is-light
+height: is-medium
+card-image: /img/kubernetes-card.png
+url: kubernetes
+name: Kubernetes Skill Sprint
+scenario: An advanced Development Team that want to take full control of deployments and application lifecycle. 
+items:
+  - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
+    description: 
+      - Introducing new technologies into a business is a difficult task which is often a long drawn out - tortuous affair. Skill Sprints are designed to guide two or three individuals to deliver something with the new technology with the support, guidance and motivation of an expert. This managed process dramatically reduces the Time to First Value.
+    type: is-success
+    icon: fa-atom
+    media: text
+
+  - title: Python is the most popular and easiest to learn programming language.
+    description: 
+      - Python was originally designed as a training language by Dutch computer scientist Guido van Rossum. Guido’s emphasis on readability and simplicity ensured a bright future for Python. Today it is by far the most popular programming language. 
+    type: is-link
+    icon: fa-code
+    media: text
+
+  - title: Employees learn coding and basic software development protocols with a flexible 40 hour programme. Useful working Python programs are delivered by the participants.
+    description: 
+      - Learning coding from online resources is extremely difficult to get to grips with. Everything is very abstract and it’s often extremely difficult for people to bring their new skills back to their workplace. Skill Sprints give participants direct experience by coaching them to deliver real value to their teams and organisation.
+    type: is-success
+    icon: fa-lightbulb
+    media: text
+
+  - image: /img/pairing.png
+    media: image
+
+  - title: Invest in your staff and your business simultaneously.
+    description: 
+      - Skill Sprints are a Micro Transformation methodology that coaches people to deliver value to their organisations using new technologies by an accomplished expert. The expert will help to ensure that a sustainable transformation is taking place - preparing the ground and helping to break down barriers.
+    type: is-school
+    icon: fa-school
+    media: text
+
+  - title: We ensure the participants gain sustainable access to web based data and development tools.
+    description: 
+      - Setting up and maintaining access to a development environment and safe, secure data access is an important factor for a successful project. 
+    type: is-success
+    icon: fa-shapes
+    media: text
+
+  - title: Business people can develop and maintain lightweight data processing pipelines which are much more scalable and powerful than desktop tools.
+    description: 
+      - Test text
+    type: is-link
+    icon: fa-satellite
+    media: text
+
+  - title: Business people get a better understanding of the data dimensions - data does not have to be “flattened” to 2d spreadsheets by IT for business consumption.
+    description: 
+      - Test text
+    type: is-success
+    icon: fa-wave-square
+    media: text
+
+  - title: Business and IT enjoy a more productive relationship because of an improved common understanding.
+    description: 
+      - Test text
+    type: is-link
+    icon: fa-smile
+    media: text
+
+  - title: Business are able to independently create and maintain business logic which is subject to strict change control and 4 eyes principles.
+    description: 
+      - Test text
+    type: is-success
+    icon: fa-git-alt
+    media: text
+
+  - title: Business people are able to process much larger and more complex data without a dependency on IT.
+    description: 
+      - Test text
+    type: is-link
+    icon: fa-atom
+    media: text
+
+  - title: Much less pressure on IT with more technically enabled business departments.
+    description: 
+      - Test text
+    type: is-success
+    icon: fa-atom
+    media: text
+
+  - title: IT no longer has to spoon feed Business teams with formatted data.
+    description: 
+      - Test text
+    type: is-link
+    icon: fa-atom
+    media: text
+
+  - title: Problem
+    description: 
+      - Microsoft Excel has been used for years to provide “Shadow IT” - Business Logic and Process that are created and maintained by the business. 
+      - They work great for small stuff but become very unsafe when leaned on too heavily.
+      - Business needs to be able to create and own processes and logic that are powerful, safe and flexible.
+    type: is-success
+    icon: fa-atom
+    media: text
+
+  - title: Solution
+    description: 
+      - Skill Sprints train employees to create simple, powerful Python programs to replace Excel spreadsheets. Their code is stored in git which has been used by software development teams for years - providing excellent change control and versioning.
+      - During the Skill Sprint, the participants will deliver tangible value to their teams and organisation - a micro-transformation project that upskills by solving real world challenges.
+      - Skill Sprints are delivered by a seasoned Python expert over forty hours. As part of the Skill Sprint we help you to ensure that the participants gain sustainable and secure access to data and development tools.
+    type: is-link
+    icon: fa-atom
+    media: text
+
+
+
+
+
+
+  # - title: Example callout 1
+  #   subtitle: Example subtitle 1
+  #   icon: fa-space-shuttle
+  #   description: - title:
+  #     The example description text goes here and can be multiple lines.
+
+  #     For example, such as this. 
+  #   call_to_action_name: Call to action 1
+  #   call_to_action_link: /page-1/
+  # - title: Example callout 2
+  #   subtitle: Example subtitle 2
+  #   icon: fa-wrench
+  #   description: >
+  #     The example description text goes here and can be multiple lines.
+
+  #     For example, such as this.
+  #   call_to_action_name: Call to action 2
+  #   call_to_action_link: /page-2/
+  # - title: Example callout 3
+  #   subtitle: Example subtitle 3
+  #   icon: fa-github
+  #   icon_brand: true
+  #   description: >
+  #     The example description text goes here and can be multiple lines.
+
+  #     For example, such as this.
+  #   call_to_action_name: Call to action 3
+  #   call_to_action_link: https://www.csrhymes.com/bulma-clean-theme/page-3/
