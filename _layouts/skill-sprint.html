@@ -5,30 +5,25 @@ show_sidebar: false
 ---
 <div class="content">
     <div class="columns is-centered">
-        <div class="column">
+        <div class="column"> <!-- Problem card starts here -->  
                 <div class="card has-equal-height">
                         <div class="card-content">
-                            <span class="icon-text has-text-danger">
-                                <span class="icon">
-                                  <i class="fas fa-lg fa-exclamation-triangle"></i>
-                                </span>
-                                <span class="title">Problem</span>
-                            </span>
-                        </div>
-                        <div class="card-content">
+                            <p class="title">Problem</p>
                             {% for item in page.problem.description %}
+                            {% if item.subtitle != nil  %}
                                 <span class="icon-text has-text-info">
                                     <span class="icon">
-                                    <i class="fas fa-sm fa-info-circle"></i>
+                                    <i class="fas fa-sm fa-cog"></i>
                                     </span>
                                     <span class="subtitle">{{ item.subtitle }}</span>
                                 </span>
+                            {% endif %}
                             <p>{{ item.text }}</p>
                             {% endfor %}
                         </div>
                 </div>
-        </div>
-        <div class="column">
+        </div> <!-- Problem card ends here --> 
+        <div class="column"> <!-- Tech profile card starts here --> 
             <div class="card has-equal-height">
                 <div class="card-content">
                     <p class="title">{{ page.tech.name }} - Tech Profile</p>
@@ -57,22 +52,30 @@ show_sidebar: false
                     </figure>
                 </div>
             </div>
-        </div>      
-        <div class="column">
+        </div> <!-- Tech profile card ends here --> 
+        <div class="column"> <!-- Solution profile card starts here --> 
                 <div class="card has-equal-height">
-                        <div class="card-content">
-                            <p class="title">Solution</p>
-                            {% for item in page.solution.description %}
-                            <p>{{ item }}</p>
-                            {% endfor %}
-                        </div>
+                    <div class="card-content">
+                        <p class="title">Solution</p>
+                        {% for item in page.solution.description %}
+                        {% if item.subtitle != nil  %}
+                            <span class="icon-text has-text-info">
+                                <span class="icon">
+                                <i class="fas fa-sm fa-cog"></i>
+                                </span>
+                                <span class="subtitle">{{ item.subtitle }}</span>
+                            </span>
+                        {% endif %}
+                        <p>{{ item.text }}</p>
+                        {% endfor %}
+                    </div>
                 </div>
-        </div>
+        </div> <!-- Solution profile card ends here --> 
     </div>
 
 
 
-    {% for item in page.items %}
+    {% for item in page.benefits %}
     <section class="section">
     {% if item.media == "text" %} 
         <h4 class="title">

@@ -1,12 +1,11 @@
-style: is-light
+style: is-dark
 items:
-  - title: Multiple page layouts
-    subtitle: Including sidebar, menubar, tabs and callouts
-    icon: fa-copy
-  - title: Blog included
-    subtitle: Layouts for blog and post pages included
-    icon: fa-mail-bulk
-  - title: Works with GitHub Pages
-    subtitle: Quick and easy to get started
-    icon: fa-github
-    icon_brand: true
+  - title: Skill Sprints
+    subtitle: Short term, high impact technology adoption programs.
+    icon: fa-running
+  - title: Micro-Transformation
+    subtitle: We design reduced scope positive transformation that can be delivered within days.
+    icon: fa-space-shuttle
+  - title: Agile Coaching
+    subtitle: We coach Agile from first principles - The Agile Manifesto
+    icon: fa-balance-scale

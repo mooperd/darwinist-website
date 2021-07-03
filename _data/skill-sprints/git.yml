@@ -8,21 +8,25 @@ url: git
 name: Git Skill Sprint
 problem:
   description:
-    - subtitle: Change Control
-      text: Teams that have recently started using programming languages may need to start thinking about using version control to track changes to their code.
-    - subtitle: Collaboration
-      text: With code running on laptops comes a very high chance of sensitive data lying around on laptop hard-drives. This could present a serious compliance problem if the data contains personal information.
-    - subtitle: Visibility 
-      text: With people using their own laptops and not checking code into git for peer review there is often high error rates and less opportunity for collaboration between team members. 
+    - subtitle: Change Control, Visibility & Collaboration
+    - text: | 
+        The Git Skill Sprint is designed for a team that are already writing code to solve problems but are suffering from change control, visibility and safety problems. 
+        Our customers are typically teams of analysts that are in the process of moving away from desktop tools like Excel and are finding it difficult to keep track of changes.
+    - text: Without a version control system teams members are not able to effectively share their code or engage in a peer review process.
+    - subtitle: Compliance 
+      text: In certain businesses such as finance or insurance there is a requirement that all systems that affect decision making are subject to strict change control and four eyes principles. Git handles these requirements quite perfectly. 
   type: is-success
   icon: fa-atom
   media: text
 
 solution:
-  description: 
-    - Skill Sprints train people already introduced to coding to be able to using collaboration tools like git and resources from cloud providers like AWS or Google.
-    - During the Skill Sprint, the participants will deliver tangible value to their teams and organisation - a micro-transformation project that upskills by solving real world challenges.
-    - Skill Sprints are delivered by a seasoned expert. As part of the Skill Sprint we ensure that the participants gain sustainable and secure access to data and development tools.
+  description:
+    - subtitle: Change Control
+    - text: During the Skill Sprint participants are coached on how to leverage Git for its powerful change control features.
+    - subtitle: Collaboration
+    - text: Development teams are able to collaborate together extremely efficiently over very complex work. Git is the pinnacle of collaboration tools.
+    - subtitle: Visibility
+    - text: With work checked into a repository it is much easier to see who is working on what.
   type: is-link
   icon: fa-atom
   media: text
@@ -30,16 +34,16 @@ solution:
 tech:
   description: Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
   name: Git
-  type: Version Control System
+  type: Version Controlled Code Repository
   url: https://git-scm.com/
   benefits:
-    - Open Source - free to use
+    - Open source - free to use
     - Perfect change control
-    - Peer review
-    - Wide acceptance - standard tool.
+    - Enforced peer review
+    - Wide acceptance as standard tool.
 
-scenario: A team that is already using programming languages such as Python or R that need to have a more formalised development process.
-items:
+scenario: Suitable for a team that is already using programming languages such as Python or R that need a more formalised development process.
+benefits:
   - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
     description: 
       - Introducing new technologies into a business is a difficult task which is often a long drawn out - tortuous affair. Skill Sprints are designed to guide two or three individuals to deliver something with the new technology with the support, guidance and motivation of an expert. This managed process dramatically reduces the Time to First Value.
@@ -47,118 +51,23 @@ items:
     icon: fa-atom
     media: text
 
-  - title: Team members get to grips wit Git.
+  - title: Collaboration with Git
     description: 
-      - Git is ubiqutous in development teams today. When used properly it provides a near perfect change control and peer review processes. Teams that use git for collaboration are faster, more accurate with less knowledge silos.
+      - Git is a very powerful collaboration tool. During the Skill Sprint participants will gain practical, hands on experience working as a team with Git.
     type: is-link
     icon: fa-code
     media: text
 
-  - title: Employees learn how to independently consume modern cloud resources like AWS or Google or Azure.
+  - title: Change Control with Git
     description: 
-      - Running code on laptops can be a dangerous proposition. Users are less likely to use version control and there is a high change of sensitive data on the hard-disk. Our DevOps Skill Sprint enables users to make use of lightweight cloud computing environments to run their code.
-    type: is-success
-    icon: fa-lightbulb
-    media: text
-
-  - image: /img/pairing.png
-    media: image
-
-  - title: Invest in your staff and your business simultaneously.
-    description: 
-      - Skill Sprints are a Micro Transformation methodology that coaches people to deliver value to their organisations using new technologies by an accomplished expert. The expert will help to ensure that a sustainable transformation is taking place - preparing the ground and helping to break down barriers.
-    type: is-school
-    icon: fa-school
-    media: text
-
-  - title: We ensure the participants gain sustainable access to web based data and development tools.
-    description: 
-      - Setting up and maintaining access to a development environment and safe, secure data access is an important factor for a successful project. 
-    type: is-success
-    icon: fa-shapes
-    media: text
-
-  - title: Business people can develop and maintain lightweight data processing pipelines which are much more scalable and powerful than desktop tools.
-    description: 
-      - Test text
+      - Git gives us a very powerful protocol for change control. Participants will learn how to ensure that changes to their code happens in a safe, peer reviewed way.
     type: is-link
-    icon: fa-satellite
+    icon: fa-code
     media: text
 
-  - title: Business people get a better understanding of the data dimensions - data does not have to be “flattened” to 2d spreadsheets by IT for business consumption.
+  - title: Automation with Git
     description: 
-      - Test text
-    type: is-success
-    icon: fa-wave-square
-    media: text
-
-  - title: Business and IT enjoy a more productive relationship because of an improved common understanding.
-    description: 
-      - Test text
+      - There are powerful techniques which allow us to automate environments with Git. Participants will learn how to automatically test and deploy their code using Git.
     type: is-link
-    icon: fa-smile
+    icon: fa-code
     media: text
-
-  - title: Business are able to independently create and maintain business logic which is subject to strict change control and 4 eyes principles.
-    description: 
-      - Test text
-    type: is-success
-    icon: fa-git-alt
-    media: text
-
-  - title: Business people are able to process much larger and more complex data without a dependency on IT.
-    description: 
-      - Test text
-    type: is-link
-    icon: fa-atom
-    media: text
-
-  - title: Much less pressure on IT with more technically enabled business departments.
-    description: 
-      - Test text
-    type: is-success
-    icon: fa-atom
-    media: text
-
-  - title: IT no longer has to spoon feed Business teams with formatted data.
-    description: 
-      - Test text
-    type: is-link
-    icon: fa-atom
-    media: text
-
-
-
-
-
-
-
-
-  # - title: Example callout 1
-  #   subtitle: Example subtitle 1
-  #   icon: fa-space-shuttle
-  #   description: - title:
-  #     The example description text goes here and can be multiple lines.
-
-  #     For example, such as this. 
-  #   call_to_action_name: Call to action 1
-  #   call_to_action_link: /page-1/
-  # - title: Example callout 2
-  #   subtitle: Example subtitle 2
-  #   icon: fa-wrench
-  #   description: >
-  #     The example description text goes here and can be multiple lines.
-
-  #     For example, such as this.
-  #   call_to_action_name: Call to action 2
-  #   call_to_action_link: /page-2/
-  # - title: Example callout 3
-  #   subtitle: Example subtitle 3
-  #   icon: fa-github
-  #   icon_brand: true
-  #   description: >
-  #     The example description text goes here and can be multiple lines.
-
-  #     For example, such as this.
-  #   call_to_action_name: Call to action 3
-  #   call_to_action_link: https://www.csrhymes.com/bulma-clean-theme/page-3/
